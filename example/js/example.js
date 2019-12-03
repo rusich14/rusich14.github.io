@@ -565,7 +565,7 @@ const apiControls = function (blueprint3dAttr) {
             jsonArr.push(value);
         }
 
-        alert(JSON.stringify(jsonArr));
+        window.itemsList = JSON.stringify(jsonArr);
     }
 
     function init() {
