@@ -567,6 +567,7 @@ const apiControls = function (blueprint3dAttr) {
 
         window.itemsList = JSON.stringify(jsonArr);
         console.log('=====> window: ', window);
+        console.log('=====> parent: ', parent);
     }
 
     function init() {
