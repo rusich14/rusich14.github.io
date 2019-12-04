@@ -569,7 +569,7 @@ const apiControls = function (blueprint3dAttr) {
 
         console.log('=====> itemListJson: ', itemListJson);
 
-        parent.postMessage("Hello","http://127.0.0.1:8080/");
+        parent.postMessage("Hello","*");
     }
 
     function init() {
