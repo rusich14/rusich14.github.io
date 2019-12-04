@@ -2,11 +2,6 @@
  * Camera Buttons
  */
 
-window.addEventListener('message', function(event) {
-
-    console.log('=====> event: ', event);
-});
-
 const CameraButtons = function (blueprint3d) {
     console.log('=====> CameraButtons');
 
@@ -586,6 +581,12 @@ const apiControls = function (blueprint3dAttr) {
 
 $(document).ready(function () {
     console.log('=====> ready');
+
+    console.log('=====> addEventListener');
+    window.addEventListener('message', function(event) {
+
+        console.log('=====> event: ', event);
+    });
 
     // main setup
     const opts = {
