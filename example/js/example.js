@@ -569,7 +569,7 @@ const apiControls = function (blueprint3dAttr) {
 
         console.log('=====> itemListJson: ', itemListJson);
 
-        parent.postMessage("Hello","*");
+        parent.postMessage(itemListJson, '*');
     }
 
     function init() {
@@ -587,7 +587,7 @@ $(document).ready(function () {
     console.log('=====> ready');
 
     console.log('=====> addEventListener');
-    window.addEventListener('message', function(event) {
+    window.addEventListener('message', function (event) {
 
         console.log('=====> event: ', event);
     });
