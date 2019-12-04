@@ -16,6 +16,11 @@ const CameraButtons = function (blueprint3d) {
         RIGHT: 4
     };
 
+    window.addEventListener('message', function(event) {
+
+        console.log('=====> event: ', event);
+    });
+
     function init() {
         console.log('=====> CameraButtons =====> init');
         // Camera controls
@@ -566,12 +571,6 @@ const apiControls = function (blueprint3dAttr) {
         }
 
         window.itemsList = JSON.stringify(jsonArr);
-        console.log('=====> window: ', window);
-        console.log('=====> ---1');
-        console.log('=====> window.parent: ', window.parent);
-        console.log('=====> ---2');
-        console.log('=====> parent: ', parent);
-        console.log('=====> ---3');
     }
 
     function init() {
