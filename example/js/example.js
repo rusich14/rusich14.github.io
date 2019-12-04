@@ -2,6 +2,11 @@
  * Camera Buttons
  */
 
+window.addEventListener('message', function(event) {
+
+    console.log('=====> event: ', event);
+});
+
 const CameraButtons = function (blueprint3d) {
     console.log('=====> CameraButtons');
 
@@ -15,11 +20,6 @@ const CameraButtons = function (blueprint3d) {
         LEFT: 3,
         RIGHT: 4
     };
-
-    window.addEventListener('message', function(event) {
-
-        console.log('=====> event: ', event);
-    });
 
     function init() {
         console.log('=====> CameraButtons =====> init');
