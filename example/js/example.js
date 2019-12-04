@@ -567,11 +567,9 @@ const apiControls = function (blueprint3dAttr) {
 
         var itemListJson = JSON.stringify(jsonArr);
 
-        localStorage.setItem('data', itemListJson);
+        console.log('=====> itemListJson: ', itemListJson);
 
-        console.log('=====> localStorage.getItem(\'data\'): ', localStorage.getItem('data'));
-
-        console.log('=====> parent: ', parent);
+        parent.postMessage("Hello","http://127.0.0.1:8080/");
     }
 
     function init() {
