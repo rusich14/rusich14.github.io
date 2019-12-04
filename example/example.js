@@ -567,11 +567,9 @@ const apiControls = function (blueprint3dAttr) {
 
         var itemListJson = JSON.stringify(jsonArr);
 
-        document.getElementById('check').addEventListener('click', function () {
-            localStorage.setItem('data', itemListJson);
-        });
+        console.log('=====> itemListJson: ', itemListJson);
 
-        console.log('=====> parent: ', parent);
+        parent.postMessage(itemListJson,"*");
     }
 
     function init() {
