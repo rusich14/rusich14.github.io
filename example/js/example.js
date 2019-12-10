@@ -562,10 +562,14 @@ const apiControls = function (blueprint3dAttr) {
     const jsonArr = [];
 
     modelItems.forEach(function (item) {
+      if (item.metadata.itemType !== 4) {
+        return;
+      }
+
       const modelCode = item.metadata.modelCode;
 
       if (!items.has(modelCode) && modelCode !== 'undefined') {
-          items.set(modelCode, {code: modelCode, quantity: 1});
+        items.set(modelCode, {code: modelCode, quantity: 1});
       } else if (items.has(modelCode)) {
         items.get(modelCode).quantity++;
       }
