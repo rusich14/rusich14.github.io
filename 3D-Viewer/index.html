@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>S3</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font: 20px Arial, sans-serif;
+    }
+
+    label {
+      display: inline-block;
+      margin: 20px;
+    }
+
+    label span {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    select {
+      display: inline-block;
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    .wrap {
+      height: 800px;
+      width: 1000px;
+      margin: 20px;
+      box-shadow: 0 0 10px 0;
+    }
+
+    #viewer {
+      height: 100%;
+      width: 100%;
+    }
+
+    canvas {
+      display: block;
+      outline: none;
+      cursor: pointer;
+    }
+  </style>
+  <script src="js/three.min.js"></script>
+  <script src="js/OBJLoader2.js"></script>
+  <script src="js/MTLLoader.js"></script>
+  <script src="js/OrbitControls.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+<label>
+  <span>Сhose a model:</span>
+  <select id="select">
+    <option value="arkray_PocketChem_UA_PU-4010ul">arkray_PocketChem_UA_PU-4010ul</option>
+    <option value="aution_eleven">aution_eleven</option>
+    <option value="D-Concept_2er">D-Concept_2er</option>
+    <option value="D-Concept_3er">D-Concept_3er</option>
+    <option value="DCA_Vantage_Analyzer">DCA_Vantage_Analyzer</option>
+    <option value="hettich_eba_270_NEU">hettich_eba_270_NEU</option>
+    <option value="Horiba_Microsemi_V05_Ausgabeeinheit_meter">Horiba_Microsemi_V05_Ausgabeeinheit_meter</option>
+    <option value="horiba_yumizen_500">horiba_yumizen_500</option>
+    <option value="minicube_v5METER">minicube_v5METER</option>
+    <option value="pathfast_analyzer">pathfast_analyzer</option>
+    <option value="spinit_v01_Ausgabeeinheit_Meter">spinit_v01_Ausgabeeinheit_Meter</option>
+  </select>
+</label>
+<div class="wrap">
+  <div
+    id="viewer"
+    data-src="models/pathfast_analyzer/pathfast_analyzer"
+  ></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.5 x64 6.5.0.9182
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl DCA_Vantage_diff
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd DCA_Vantage_diff.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage_inner
+Ka 0.0705882 0.0705882 0.0705882
+Kd 0.0705882 0.0705882 0.0705882
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage_plastic_4
+Ka 0.545098 0.545098 0.545098
+Kd 0.545098 0.545098 0.545098
+Ks 0.9 0.9 0.9
+illum 2
+Ns 22.6274
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage_chrome
+Ka 0.0470588 0.0470588 0.0470588
+Kd 0.0470588 0.0470588 0.0470588
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage_plastic
+Ka 0.243137 0.243137 0.243137
+Kd 0.243137 0.243137 0.243137
+Ks 0.9 0.9 0.9
+illum 2
+Ns 45.2548
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage_plastic_2
+Ka 0.764706 0.513726 0.243137
+Kd 0.764706 0.513726 0.243137
+Ks 0.9 0.9 0.9
+illum 2
+Ns 45.2548
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage_plastic_3
+Ka 0.643137 0.643137 0.643137
+Kd 0.643137 0.643137 0.643137
+Ks 0.9 0.9 0.9
+illum 2
+Ns 45.2548
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage_plastic_1
+Ka 0.266667 0.772549 0.243137
+Kd 0.266667 0.772549 0.243137
+Ks 0.9 0.9 0.9
+illum 2
+Ns 45.2548
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage_glass
+Ka 0.105882 0.105882 0.105882
+Kd 0.105882 0.105882 0.105882
+Ks 0.9 0.9 0.9
+illum 2
+Ns 256
+d 0.72
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage_paper
+Ka 0.796079 0.796079 0.796079
+Kd 0.796079 0.796079 0.796079
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage_display
+Ka 0.145098 0.145098 0.145098
+Kd 0.145098 0.145098 0.145098
+Ks 0.9 0.9 0.9
+illum 2
+Ns 2048
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl DCA_Vantage
+Ka 0.0470588 0.0470588 0.0470588
+Kd 0.0470588 0.0470588 0.0470588
+Ks 0.9 0.9 0.9
+illum 2
+Ns 64
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
