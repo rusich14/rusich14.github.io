@@ -32,7 +32,7 @@ window.onload = function () {
       grey: 0xcccccc,
     };
     var scene = new THREE.Scene();
-    var camera = new THREE.PerspectiveCamera(45, size.x / size.y, 0.1, 100);
+    var camera = new THREE.PerspectiveCamera(45, size.x / size.y, 0.1, 500);
     var renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(size.x, size.y);
     renderer.setClearColor(colors.white);

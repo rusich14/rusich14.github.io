@@ -1,0 +1,29 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 17.06.2020 13:33:57
+
+newmtl MicroINR_Glass_mat
+	Ns 80.1123
+	Ni 1.5000
+	d 0.7200
+	Tr 0.2800
+	Tf 0.7200 0.7200 0.7200 
+	illum 2
+	Ka 0.1059 0.1059 0.1059
+	Kd 0.0847 0.0847 0.0847
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl MicroINR_Base_mat
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka MicroINR_Base_Diffuse.jpg
+	map_Kd MicroINR_Base_Diffuse.jpg
+	map_Ks MicroINR_Base_Specular.jpg
