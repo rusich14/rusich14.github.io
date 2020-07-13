@@ -1,7 +1,7 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 17.06.2020 13:33:57
+# File Created: 26.06.2020 18:51:14
 
-newmtl MicroINR_Glass_mat
+newmtl Glass_mat
 	Ns 80.1123
 	Ni 1.5000
 	d 0.7200
@@ -13,17 +13,66 @@ newmtl MicroINR_Glass_mat
 	Ks 0.9000 0.9000 0.9000
 	Ke 0.0000 0.0000 0.0000
 
-newmtl MicroINR_Base_mat
-	Ns 10.0000
+newmtl MicroINR_Yellow_LED_mat
+	Ns 35.0000
 	Ni 1.5000
 	d 1.0000
 	Tr 0.0000
 	Tf 1.0000 1.0000 1.0000 
 	illum 2
-	Ka 0.5882 0.5882 0.5882
-	Kd 0.5882 0.5882 0.5882
-	Ks 0.0000 0.0000 0.0000
+	Ka 0.0196 0.0275 0.0784
+	Kd 0.0196 0.0275 0.0784
+	Ks 0.6750 0.6750 0.6750
+	Ke 0.0000 0.0000 0.0000
+
+newmtl MicroINR_White_Plastic_mat
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.8627 0.8627 0.8627
+	Kd 0.8627 0.8627 0.8627
+	Ks 0.5882 0.5882 0.5882
 	Ke 0.0000 0.0000 0.0000
 	map_Ka MicroINR_Base_Diffuse.jpg
 	map_Kd MicroINR_Base_Diffuse.jpg
-	map_Ks MicroINR_Base_Specular.jpg
+
+newmtl MicroINR_Chrome_mat
+	Ns 629.5537
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 0.7797 0.7797 0.7797
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Yellow_Plastic_mat
+	Ns 441.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 0.7350 0.0073
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka MicroINR_Base_Diffuse.jpg
+	map_Kd MicroINR_Base_Diffuse.jpg
+
+newmtl MicroINR_Inner_Parts_mat
+	Ns 394.3063
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0314 0.0314 0.0314
+	Kd 0.0314 0.0314 0.0314
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000

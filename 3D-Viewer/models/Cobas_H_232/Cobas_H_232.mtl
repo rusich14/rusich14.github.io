@@ -1,0 +1,28 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 07.07.2020 12:47:25
+
+newmtl Cobas_H_232_Base_mat
+	Ns 55.6239
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.6431 0.6431 0.6431
+	Kd 0.7490 0.7490 0.7490
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Cobas_H_232_Diffuse.jpg
+	map_Kd Cobas_H_232_Diffuse.jpg
+
+newmtl Cobas_H_232_LED_mat
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0196 0.0275 0.0784
+	Kd 0.0196 0.0275 0.0784
+	Ks 0.6750 0.6750 0.6750
+	Ke 0.0000 0.0000 0.0000

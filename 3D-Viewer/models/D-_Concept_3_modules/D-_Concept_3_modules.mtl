@@ -1,17 +1,58 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 17.06.2020 13:33:08
+# File Created: 26.06.2020 20:21:36
 
-newmtl D_Concept_2_Module_mat
-	Ns 10.0000
+newmtl D_Concept_2_Module_Buttons_mat
+	Ns 55.6239
 	Ni 1.5000
 	d 1.0000
 	Tr 0.0000
 	Tf 1.0000 1.0000 1.0000 
 	illum 2
-	Ka 0.5882 0.5882 0.5882
-	Kd 0.5882 0.5882 0.5882
-	Ks 0.0000 0.0000 0.0000
+	Ka 0.2431 0.2431 0.2431
+	Kd 0.1945 0.1945 0.1945
+	Ks 0.9000 0.9000 0.9000
 	Ke 0.0000 0.0000 0.0000
 	map_Ka D-Concept_2_Module_Diffuse.jpg
 	map_Kd D-Concept_2_Module_Diffuse.jpg
-	map_Ks D-Concept_2_Module_Specular.jpg
+
+newmtl D_Concept_2_Module_Plastic_mat
+	Ns 394.3063
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0314 0.0314 0.0314
+	Kd 0.0314 0.0314 0.0314
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D-Concept_2_Module_Diffuse.jpg
+	map_Kd D-Concept_2_Module_Diffuse.jpg
+
+newmtl D_Concept_2_Module_Metal_02_mat
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1137 0.1216 0.1373
+	Kd 0.1137 0.1216 0.1373
+	Ks 0.5882 0.5882 0.5882
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D-Concept_2_Module_Diffuse.jpg
+	map_Kd D-Concept_2_Module_Diffuse.jpg
+
+newmtl D_Concept_2_Module_Metal_01_mat
+	Ns 55.6239
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2431 0.2431 0.2431
+	Kd 0.1725 0.1490 0.1490
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D-Concept_2_Module_Diffuse.jpg
+	map_Kd D-Concept_2_Module_Diffuse.jpg

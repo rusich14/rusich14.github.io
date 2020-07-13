@@ -1,0 +1,86 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 10.07.2020 11:28:27
+
+newmtl Selectra_Pro_S_Glass_mat
+	Ns 157.3884
+	Ni 1.5000
+	d 0.5000
+	Tr 0.5000
+	Tf 0.5000 0.5000 0.5000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 0.6664 0.7212 0.7824
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Selectra_Pro_S_Diffuse.jpg
+	map_Kd Selectra_Pro_S_Diffuse.jpg
+
+newmtl Selectra_Pro_S_Chrome_mat
+	Ns 629.5537
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 0.7797 0.7797 0.7797
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Selectra_Pro_S_Diffuse.jpg
+	map_Kd Selectra_Pro_S_Diffuse.jpg
+
+newmtl Selectra_Pro_S_Weiss_mat
+	Ns 500.1322
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 0.9935 0.9935 0.9935
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Selectra_Pro_S_Diffuse.jpg
+	map_Kd Selectra_Pro_S_Diffuse.jpg
+
+newmtl Selectra_Pro_S_Schwarz_mat
+	Ns 394.3063
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 0.0017 0.0017 0.0017
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Selectra_Pro_S_Diffuse.jpg
+	map_Kd Selectra_Pro_S_Diffuse.jpg
+
+newmtl Selectra_Pro_S_Plastic_mat
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 0.0037 0.0037 0.0037
+	Ks 0.2500 0.2500 0.2500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Selectra_Pro_S_Diffuse.jpg
+	map_Kd Selectra_Pro_S_Diffuse.jpg
+
+newmtl Selectra_Pro_S_Led_mat
+	Ns 900.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 0.0522 0.0522 0.0522
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Selectra_Pro_S_Diffuse.jpg
+	map_Kd Selectra_Pro_S_Diffuse.jpg
